@@ -8,9 +8,18 @@
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
-    <title></title>
+    <title>Word Play</title>
   </head>
   <body>
-
+    <div class="container">
+      <form id="sentence">
+        <div class="form-group">
+          <label for="scrambleMe">Enter a sentence:</label>
+          <input id ="scrambleMe" type="text" class="form-control" placeholder="To be scrambled">
+        </div>
+        <button type="submit" class="btn btn-warning">Scramble Me</button>
+      </form>
+      <h2 id="scramOut"></h2>
+    </div>
   </body>
 </html>
